@@ -7,8 +7,7 @@ from wechat_sender import *
 from settings_beta import YouDao_Lang, BAIDU, CONTACT
 
 
-bot = Bot(cache_path=True, qr_path="C:\\Users\\Agodabkk\\Desktop\\wxpy.jpg")
-# bot = Bot(cache_path=True, console_qr=True, qr_path="/home/ubuntu/wx_chat/wxpy.jpg")
+bot = Bot(cache_path=True, qr_path="<YOUR>\\<PC>\\<PATH>wxpy.jpg")
 bot.enable_puid("wxpy_puid.pkl")
 me = bot.self
 helper = bot.file_helper
